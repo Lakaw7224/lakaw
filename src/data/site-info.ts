@@ -11,7 +11,7 @@ export const SITE_NAME_ROMAN = 'yuansweets'
 
 export const CAT_ORDER = ['coffee', 'pour_over', 'herbal_tea'] as const
 
-export const LANGS = ['zh', 'en', 'ja', 'ko', 'fr'] as const
+export const LANGS = ['zh', 'en', 'ja', 'ko', 'fr', 'ami'] as const
 
 export type I18nKeys = {
   addressLabel: string
@@ -92,5 +92,18 @@ export const I18N: Record<Lang, I18nKeys> = {
     priceLabel: 'Prix',
     cats: { coffee: 'Café', pour_over: 'Café filtre', herbal_tea: 'Tisanes locales' },
     catSubs: { coffee: 'CAFÉ', pour_over: 'CAFÉ FILTRE', herbal_tea: 'TISANES' },
+  },
+  ami: {
+    addressLabel: 'Adres',
+    phoneLabel: 'Telefon',
+    hoursLabel: 'Masa',
+    hoursValue: "Pala'an · Awa o masa",
+    address: "No. 20, Minciwan, Fakong, Halawan, Taiwan",
+    market: 'Heci nira',
+    descLabel: 'Safelih',
+    noteLabel: 'Pangahi',
+    priceLabel: 'Heci',
+    cats: { coffee: 'Kapi', pour_over: 'Cicip kapi', herbal_tea: 'Teh no ramod' },
+    catSubs: { coffee: 'KAPI', pour_over: 'CICIP KAPI', herbal_tea: 'TEH NO RAMOD' },
   },
 }

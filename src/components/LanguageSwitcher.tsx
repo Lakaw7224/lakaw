@@ -7,6 +7,7 @@ const LANGS: { code: Lang; label: string }[] = [
   { code: 'ja', label: '日本語' },
   { code: 'ko', label: '한국어' },
   { code: 'fr', label: 'FR' },
+  { code: 'ami', label: 'Pangcah' },
 ]
 
 export function LanguageSwitcher() {
