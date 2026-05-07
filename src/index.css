@@ -1,0 +1,30 @@
+@import "tailwindcss";
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #FBF4E4;
+  font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", "PingFang TC",
+               "Hiragino Sans", "Noto Sans TC", "Noto Sans JP", "Noto Sans KR",
+               "Microsoft JhengHei", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  color: #3A2E22;
+}
+
+.scrollbar-none {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollbar-none::-webkit-scrollbar {
+  display: none;
+}
