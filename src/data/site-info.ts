@@ -11,7 +11,7 @@ export const SITE_NAME_ROMAN = 'yuansweets'
 
 export const CAT_ORDER = ['coffee', 'pour_over', 'herbal_tea'] as const
 
-export const LANGS = ['zh', 'en', 'ja', 'ko', 'fr'] as const
+export const LANGS = ['zh', 'en', 'ja', 'ko', 'fr', 'ami'] as const
 
 export type I18nKeys = {
   addressLabel: string
@@ -72,7 +72,7 @@ export const I18N: Record<Lang, I18nKeys> = {
     phoneLabel: '전화',
     hoursLabel: '영업',
     hoursValue: '예약제 · 고정 영업시간 없음',
-    address: '대만 화롄현 펑빈향 민취안가 20호',
+    address: '대만 화롌현 펑빈향 민취안가 20호',
     market: '시가',
     descLabel: '설명',
     noteLabel: '비고',
@@ -84,7 +84,7 @@ export const I18N: Record<Lang, I18nKeys> = {
     addressLabel: 'Adresse',
     phoneLabel: 'Téléphone',
     hoursLabel: 'Horaires',
-    hoursValue: 'Sur réservation · Pas d\'horaires fixes',
+    hoursValue: "Sur réservation · Pas d'horaires fixes",
     address: 'N° 20, rue Minquan, canton Fengbin, comté de Hualien, Taïwan',
     market: 'Prix du marché',
     descLabel: 'Description',
@@ -92,5 +92,18 @@ export const I18N: Record<Lang, I18nKeys> = {
     priceLabel: 'Prix',
     cats: { coffee: 'Café', pour_over: 'Café filtre', herbal_tea: 'Tisanes locales' },
     catSubs: { coffee: 'CAFÉ', pour_over: 'CAFÉ FILTRE', herbal_tea: 'TISANES' },
+  },
+  ami: {
+    addressLabel: 'Adres',
+    phoneLabel: 'Telefon',
+    hoursLabel: 'Masa',
+    hoursValue: "Pala'an · Awa o masa",
+    address: 'No. 20, Minciwan, Fakong, Halawan, Taiwan',
+    market: 'Heci nira',
+    descLabel: 'Safelih',
+    noteLabel: 'Pangahi',
+    priceLabel: 'Heci',
+    cats: { coffee: 'Kapi', pour_over: 'Cicip kapi', herbal_tea: 'Teh no ramod' },
+    catSubs: { coffee: 'KAPI', pour_over: 'CICIP KAPI', herbal_tea: 'TEH NO RAMOD' },
   },
 }
