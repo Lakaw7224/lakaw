@@ -84,7 +84,7 @@ export const I18N: Record<Lang, I18nKeys> = {
     addressLabel: 'Adresse',
     phoneLabel: 'Téléphone',
     hoursLabel: 'Horaires',
-    hoursValue: "Sur réservation · Pas d'horaires fixes",
+    hoursValue: 'Sur réservation · Pas d\'horaires fixes',
     address: 'N° 20, rue Minquan, canton Fengbin, comté de Hualien, Taïwan',
     market: 'Prix du marché',
     descLabel: 'Description',
