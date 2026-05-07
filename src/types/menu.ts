@@ -1,4 +1,4 @@
-export type Lang = 'zh' | 'en' | 'ja' | 'ko'
+export type Lang = 'zh' | 'en' | 'ja' | 'ko' | 'fr'
 
 export type I18nString = Record<Lang, string>
 

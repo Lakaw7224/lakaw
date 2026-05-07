@@ -11,6 +11,8 @@ export const SITE_NAME_ROMAN = 'yuansweets'
 
 export const CAT_ORDER = ['coffee', 'pour_over', 'herbal_tea'] as const
 
+export const LANGS = ['zh', 'en', 'ja', 'ko', 'fr'] as const
+
 export type I18nKeys = {
   addressLabel: string
   phoneLabel: string
@@ -77,5 +79,18 @@ export const I18N: Record<Lang, I18nKeys> = {
     priceLabel: '가격',
     cats: { coffee: '커피', pour_over: '핸드드립', herbal_tea: '로컬 허브차' },
     catSubs: { coffee: 'COFFEE', pour_over: 'POUR OVER', herbal_tea: 'HERBAL TEA' },
+  },
+  fr: {
+    addressLabel: 'Adresse',
+    phoneLabel: 'Téléphone',
+    hoursLabel: 'Horaires',
+    hoursValue: "Sur réservation · Pas d'horaires fixes",
+    address: 'N° 20, rue Minquan, canton Fengbin, comté de Hualien, Taïwan',
+    market: 'Prix du marché',
+    descLabel: 'Description',
+    noteLabel: 'Remarques',
+    priceLabel: 'Prix',
+    cats: { coffee: 'Café', pour_over: 'Café filtre', herbal_tea: 'Tisanes locales' },
+    catSubs: { coffee: 'CAFÉ', pour_over: 'CAFÉ FILTRE', herbal_tea: 'TISANES' },
   },
 }
