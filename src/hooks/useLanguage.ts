@@ -17,7 +17,7 @@ export function useLanguage(): LanguageContextValue {
 
 export function useLanguageState(): LanguageContextValue {
   const stored = (localStorage.getItem('lang') ?? 'zh') as Lang
-  const valid: Lang[] = ['zh', 'en', 'ja', 'ko']
+  const valid: Lang[] = ['zh', 'en', 'ja', 'ko', 'fr']
   const initial: Lang = valid.includes(stored) ? stored : 'zh'
 
   const [lang, setLangState] = useState<Lang>(initial)
